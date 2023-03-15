@@ -223,7 +223,7 @@ async def privat_in(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                text=f"📂[{get_size(file.file_size)}]📂 {file.file_name}", url=f'https://t.me/TGMovieRobot?start=_-_-_-_{file.file_id}'
+                text=f"📂[{get_size(file.file_size)}] {file.file_name}", url=f'https://t.me/TGMovieRobot?start=_-_-_-_{file.file_id}'
             ),
             ]
             for file in files
