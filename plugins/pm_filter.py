@@ -31,9 +31,9 @@ def wish():
     if currentTime.hour < 12:
         return "Good Morning"
     elif 12 <= currentTime.hour < 18:
-        return 'Good afternoon'
+        return 'Good afternoon !'
     else:
-        return 'Good evening'
+        return 'Good evening !'
 
 BUTTONS = {}
 BOT = {}
